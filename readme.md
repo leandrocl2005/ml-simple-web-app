@@ -8,7 +8,7 @@ Prever o que tem na imagem da url que o usuário digitou no formulário. Alguns 
 
 ## Instalação
 ```bash
-git clone
+git clone https://github.com/leandrocl2005/ml-simple-web-app.git
 npm i
 ```
 Pronto, só digitar no navegador `http://localhost:5000`
