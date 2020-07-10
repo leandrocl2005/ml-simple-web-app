@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap 4 Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <h1>Sua imagem</h1>
+      <!-- Add an image that we will use to test -->
+      <img id="img" crossorigin="crossorigin" src="{{url_image}}" width="227" height="227"/>
+      <h2>A predição</h2>
+      <p id="prediction"></p>
+      <a href="/">Voltar</a>
+      <!-- Load index.js after the content of the page -->
+      <script src="/index.js"></script>
+    </div>
+  </body>
+  </html>
